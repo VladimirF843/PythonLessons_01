@@ -22,7 +22,7 @@ def log_event(username: str, status: str):
 
     # Створення та налаштування логера
     logging.basicConfig(
-        filename='login_system.log',
+        filename='login_system.log' ,
         level=logging.INFO,
         format='%(asctime)s - %(message)s'
         )

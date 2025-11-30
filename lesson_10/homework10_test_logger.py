@@ -80,5 +80,5 @@ class TestLogEvent(unittest.TestCase):
         self.assertEqual(self._read_last_message(), expected_msg)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__' :
     unittest.main()
